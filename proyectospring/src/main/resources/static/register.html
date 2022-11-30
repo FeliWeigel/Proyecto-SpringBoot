@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/register.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Proyecto Java Spring MySql</title>
+
+
+</head>
+
+<body>
+
+    <div class="register-container container">
+        <nav class="nav">
+            <div class="nav-logo">
+                <img src="img/logo.png" class="logo-img" alt="error">
+                <h3 class="logo-text">Ace Crypto</h3>
+            </div>
+        </nav>
+
+        <h2 class="register-title">Para comenzar, crea una nueva cuenta!</h2>
+
+        <form class="register-form">
+            <div class="form-group form-top">
+                <input type="text" placeholder="Nombre" class="input-name" id="txtNombre">
+                <input type="text" placeholder="Apellido" class="input-lastname" id="txtApellido">
+            </div>
+
+            <input type="email" placeholder="Email" class="input-email" id="txtEmail">
+
+            <div class="form-group form-low">
+                <input type="password" placeholder="Contraseña" class="input-password" id="txtPassword">
+                <input type="password" placeholder="Repetir Contraseña" class="input-password" id="txtRepeatPassword">
+            </div>
+            <p class="password-conditions">La contrasenia debe contener al menos 6 caracteres y una mayuscula.</p>
+            <a href="#" onclick="registrarUsuario()" class="register-button">Register</a>
+
+        </form>
+
+        <a href="login.html" class="register-login-button">Ya tienes una cuenta? Inicia sesion!</a>
+    </div>
+
+    <script src="js/register.js"></script>
+
+</body>
